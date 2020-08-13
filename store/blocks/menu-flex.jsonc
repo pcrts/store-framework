@@ -1,6 +1,6 @@
 {
   "flex-layout.row#major": {
-    "children": ["vtex.menu@2.x:menu#major", "flex-layout.col#major"]
+    "children": ["vtex.menu@2.x:menu#major","flex-layout.col#menu", "flex-layout.col#img"]
   },
   "vtex.menu@2.x:menu#major": {
     "children": [
@@ -11,10 +11,6 @@
     "props": {
       "orientation": "vertical"
     }
-  },
-
-  "flex-layout.col#major": {
-    "children": ["flex-layout.col#menu", "flex-layout.col#img"]
   },
 
   "flex-layout.col#menu":{
