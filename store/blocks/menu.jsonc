@@ -9,8 +9,9 @@
       "orientation": "horizontal"
     }
   },
+
   "vtex.menu@2.x:submenu#major": {
-    "children": ["flex-layout.row#major"]
+    "blocks": ["flex-layout.row#major"]
   },
 
   "vtex.menu@2.x:submenu#small": {
