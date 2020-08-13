@@ -16,9 +16,13 @@
     "children": ["vtex.menu@2.x:menu#major"]
   },
   "vtex.menu@2.x:menu#major": {
-    "children": ["menu-item#refrigerators","menu-item#ovens","menu-item#washers"],
-    "props":{
-        "orientation": "Vertical"
+    "children": [
+      "menu-item#refrigerators",
+      "menu-item#ovens",
+      "menu-item#washers"
+    ],
+    "props": {
+      "orientation": "Vertical"
     }
   }
 }
