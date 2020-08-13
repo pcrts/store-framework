@@ -19,7 +19,7 @@
       "menu-item#washers"
     ],
     "props": {
-      "orientation": "Vertical"
+      "orientation": "vertical"
     }
   },
 
@@ -30,10 +30,10 @@
     "children": [
       "menu-item#mixers",
       "menu-item#toasters",
-      "menu-item#coffee "
+      "menu-item#coffee"
     ],
     "props": {
-      "orientation": "Vertical"
+      "orientation": "vertical"
     }
   },
 
@@ -47,7 +47,7 @@
       "menu-item#tvs"
     ],
     "props": {
-      "orientation": "Vertical"
+      "orientation": "vertical"
     }
   }
 }
