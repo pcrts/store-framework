@@ -1,0 +1,23 @@
+{
+  "store.custom#landing": {
+    "blocks": ["image#landingbanner", "search-result-layout.customQuery"]
+  },
+
+  "image#landingbanner": {
+    "props": {
+      "src": "https://image.shutterstock.com/image-vector/brush-sale-banner-promotion-ribbon-260nw-1182942766.jpg",
+      "minWidth": "100%"
+    }
+  },
+
+  "search-result-layout.customQuery": {
+    "props": {
+      "context": {
+        "skusFilter": "Blue Top Retro Camera"
+      },
+      "orderByField": "OrderByReleaseDateDESC",
+      "hideUnavailableItems": true,
+      "maxItemsPerPage": 8
+    }
+  }
+}
